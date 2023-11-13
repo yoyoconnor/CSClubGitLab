@@ -1,0 +1,49 @@
+:root {
+    --main-bg-color: #f4f4f4;
+    --main-text-color: #333;
+    --header-bg-color: #333;
+    --header-text-color: #fff;
+    --section-border-color: #ddd;
+    --article-bg-color: #f9f9f9;
+    --footer-bg-color: #333;
+    --footer-text-color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+header {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+article {
+    border: 1px solid var(--section-border-color);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: var(--article-bg-color);
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add more CSS rules and variables as needed */
